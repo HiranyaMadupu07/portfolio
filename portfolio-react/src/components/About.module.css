@@ -1,0 +1,45 @@
+.aboutSection {
+  padding: 4rem 2rem;
+  background-color: #040913; /* dark navy */
+  color: #e0e7ff; /* light lavender */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: none;
+  padding-top: none;
+}
+
+.aboutContainer {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.aboutContainer h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #c7d2fe;
+  margin-bottom: 1rem;
+}
+
+.aboutBio {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  color: #a5b4fc;
+  margin-bottom: 3rem;
+  max-width: 700px;
+}
+
+.educationTimeline {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.eduCard {
+  background-color: #1e293b; /* dark slate */
+  padding: 1.5rem;
+  border-radius: 1rem;
+  font-weight: 600;
+  box-shadow: 0 5px 10px rgba(72, 73, 179, 0.3);
+  width:600px;
+  margin-bottom: 20px;
+}

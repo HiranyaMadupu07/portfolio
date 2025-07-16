@@ -1,0 +1,65 @@
+.heroSection {
+  display: flex;
+  align-items: center;
+  padding: 4rem 2rem;
+  background: #040913;
+  color: #e0e7ff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  gap: 3rem;
+  margin-bottom: none;
+  padding-bottom: none;
+}
+
+.profileImage {
+  width: 350px;
+  height: 350px;
+  border-radius: 1.5rem;
+  object-fit: cover;
+  box-shadow: 0 8px 24px rgba(99, 102, 241, 0.5);
+  margin:40px;
+  margin-left:70px;
+  margin-bottom: none;
+}
+
+.heroText {
+  flex: 1;
+}
+
+.heroTitle {
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #c7d2fe;
+  line-height: 1.1;
+}
+
+.heroDescription {
+  font-size: 1.25rem;
+  color: #a5b4fc;
+  margin-top: 1rem;
+  max-width: 600px;
+  line-height: 1.6;
+}
+
+.resumebtn {
+  padding: 0.9rem 2.5rem;
+  border-radius: 0.75rem;
+  text-decoration: none;
+  font-weight: 700;
+  cursor: pointer;
+  border: 2px solid ;
+  align-items: center;
+  font-size: 1rem;
+  background-color: #040913;
+}
+
+.resumebtnOutline {
+  /* background-color: transparent; */
+  color: #6366f1;
+  border-color: #6366f1;
+}
+
+.resumebtnOutline:hover {
+  /* background-color: #6366f1; */
+  color: white;
+}

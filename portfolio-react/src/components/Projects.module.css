@@ -1,0 +1,168 @@
+.projectsSection {
+  padding: 4rem 2rem;
+  background-color: #040913; /* dark navy */
+  color: #e0e7ff; /* light lavender */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.projectsSection h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #c7d2fe;
+  margin-bottom: 1rem;
+   /* lighter lavender */
+}
+
+.projectsIntro {
+  font-size: 1.25rem;
+  color: #a5b4fc; /* medium lavender */
+  margin-bottom: 3rem;
+  max-width: 700px;
+}
+
+.projectCards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+}
+
+.projectCard {
+  background-color: #1e293b; /* dark slate */
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 8px 24px rgba(99, 102, 241, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.projectCard:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 32px rgba(99, 102, 241, 0.6);
+}
+
+.projectCard h3 {
+  margin-top: 0;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #e0e7ff;
+}
+
+.projectCard p {
+  margin-top: 0.75rem;
+  color: #cbd5e1;
+  line-height: 1.5;
+}
+
+.projectTags {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.projectTags span {
+  background-color: #4f46e5; /* indigo */
+  color: white;
+  padding: 0.4rem 1rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  user-select: none;
+}
+
+.projectLinks {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.btn {
+  padding: 0.6rem 1.5rem;
+  border-radius: 0.75rem;
+  text-decoration: none;
+  font-weight: 700;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1rem;
+}
+
+.btnPrimary {
+  background-color: #6366f1; /* indigo */
+  color: white;
+  border-color: #6366f1;
+}
+
+.btnPrimary:hover {
+  background-color: #4f46e5;
+  border-color: #4f46e5;
+}
+
+.btnOutline {
+  background-color: transparent;
+  color: #6366f1;
+  border-color: #6366f1;
+}
+
+.btnOutline:hover {
+  background-color: #6366f1;
+  color: white;
+}
+
+/* Styling for Web Development Portfolio section */
+.webDevProjects {
+  padding: 4rem 2rem;
+  background: #040913;
+
+  color: #e0e7ff;
+  text-align: center;
+}
+
+.webDevProjects h3 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #c7d2fe;
+  margin-bottom: 1rem;
+}
+
+.webDevProjects p {
+  font-size: 1.25rem;
+  color: #a5b4fc;
+  margin-bottom: 2rem;
+}
+
+.webProjectList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 2rem 0;
+}
+
+.webProjectList li {
+  background-color: #1e293b;
+  padding: 0.75rem 1.5rem;
+  border-radius: 9999px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #e0e7ff;
+  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
+  user-select: none;
+}
+
+.webDevProjects .projectLinks {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
